@@ -1,7 +1,6 @@
-
-import React from "react"
-import { motion } from "framer-motion"
-import { Leaf, Heart, Shield } from "lucide-react"
+import React from "react";
+import { motion } from "framer-motion";
+import { Leaf, Heart, Shield } from "lucide-react";
 
 function App() {
   return (
@@ -18,9 +17,9 @@ function App() {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <img 
-            src="https://storage.googleapis.com/hostinger-horizons-assets-prod/f17be90f-4705-4941-b7c5-2de18ecc7789/aca510ece9f288db433032740fa34f2c.png" 
-            alt="100prevalor logo" 
+          <img
+            src="https://storage.googleapis.com/hostinger-horizons-assets-prod/f17be90f-4705-4941-b7c5-2de18ecc7789/aca510ece9f288db433032740fa34f2c.png"
+            alt="100prevalor logo"
             className="h-24 md:h-32 mx-auto mb-8"
           />
         </motion.div>
@@ -40,7 +39,8 @@ function App() {
           transition={{ delay: 0.5 }}
           className="text-lg md:text-xl text-white/90 mb-12"
         >
-          Estamos construyendo una nueva forma de cotizar seguros, pensando en ti y en nuestro planeta.
+          Estamos construyendo una nueva forma de cotizar seguros, pensando en
+          vos y en nuestro planeta.
         </motion.p>
 
         <motion.div
@@ -52,24 +52,30 @@ function App() {
           <div className="flex flex-col items-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
             <Heart className="w-12 h-12 mb-4 text-white" />
             <h3 className="text-xl font-semibold mb-2">Compromiso Social</h3>
-            <p className="text-white/80">Creando un impacto positivo en nuestra comunidad</p>
+            <p className="text-white/80">
+              Creando un impacto positivo en nuestra comunidad
+            </p>
           </div>
 
           <div className="flex flex-col items-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
             <Leaf className="w-12 h-12 mb-4 text-white" />
             <h3 className="text-xl font-semibold mb-2">Sostenibilidad</h3>
-            <p className="text-white/80">Comprometidos con el cuidado del medio ambiente</p>
+            <p className="text-white/80">
+              Comprometidos con el cuidado del medio ambiente
+            </p>
           </div>
 
           <div className="flex flex-col items-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
             <Shield className="w-12 h-12 mb-4 text-white" />
             <h3 className="text-xl font-semibold mb-2">Protección Integral</h3>
-            <p className="text-white/80">Soluciones de seguros adaptadas a tus necesidades</p>
+            <p className="text-white/80">
+              Soluciones de seguros adaptadas a tus necesidades
+            </p>
           </div>
         </motion.div>
       </motion.div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
