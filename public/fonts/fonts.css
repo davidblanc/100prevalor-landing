@@ -1,0 +1,36 @@
+/* Parkinsans Font */
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('./Parkinsans-Light.woff2') format('woff2'),
+       url('./Parkinsans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('./Parkinsans-Regular.woff2') format('woff2'),
+       url('./Parkinsans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('./Parkinsans-Medium.woff2') format('woff2'),
+       url('./Parkinsans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('./Parkinsans-Bold.woff2') format('woff2'),
+       url('./Parkinsans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
