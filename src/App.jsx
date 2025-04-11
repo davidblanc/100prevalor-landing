@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Leaf, Heart, Shield } from "lucide-react";
+import logo from "./assets/logo_blanco.svg";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           className="mb-8"
         >
           <img
-            src="https://storage.googleapis.com/hostinger-horizons-assets-prod/f17be90f-4705-4941-b7c5-2de18ecc7789/aca510ece9f288db433032740fa34f2c.png"
+            src={logo}
             alt="100prevalor logo"
             className="h-24 md:h-32 mx-auto mb-8"
           />
